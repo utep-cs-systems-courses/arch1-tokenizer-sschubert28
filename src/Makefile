@@ -11,6 +11,7 @@ $(OBJS): history.h tokenizer.h
 
 clean:
 	rm -f *.o tokenizer
+	rm *~
 
 run: tokenizer
 	./tokenizer
